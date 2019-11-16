@@ -20,19 +20,37 @@ html {
 
 article {
   max-width: 43em;
-  margin:
+  margin:0 .5rem;
+}
+
+body {
+  font-family: 'Crimson Text', serif;
+  margin: 0;
 }
 
 article h1 {
   font-weight: normal;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+article p {
+
+}
+
+article ol {
+
 }
 
 article header {
   border-bottom: 1px solid #999;
+  padding-top: 1.2em;
+  padding-bottom: 1.2em;
 }
 
 article header p {
   font-style: italic;
+  margin-top: 0;
 }
 
 article > p:last-child {
@@ -47,4 +65,31 @@ blockquote {
 
 .quote {
   color: #999;
+}
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 1.5rem;
+
+  }
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 1.5rem;
+
+  }
+}
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 1.5rem;
+  }
+
+  body {
+    padding: 0;
+    margin: auto;
+  }
 }
