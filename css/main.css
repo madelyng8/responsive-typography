@@ -20,7 +20,7 @@ html {
 
 article {
   max-width: 43em;
-  margin:0 .5rem;
+  margin: 0 .5rem;
 }
 
 body {
@@ -45,7 +45,7 @@ article ol {
 article header {
   border-bottom: 1px solid #999;
   padding-top: 1.2em;
-  padding-bottom: 1.2em;
+  padding-bottom: 1.3em;
 }
 
 article header p {
@@ -70,26 +70,35 @@ blockquote {
 @media only screen and (min-width: 38em) {
 
   html {
-    font-size: 1.5rem;
-
+    font-size: 110%;
+    line-height: 1.4;
   }
+
+  h1,
+  p {
+    margin: 0 0 1.4rem;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
 
   html {
-    font-size: 1.5rem;
-
+    font-size: 120%;
+    line-height: 1.5;
   }
+
+  h1,
+  p {
+    margin: 0 0 1.5rem;
+  }
+
 }
+
 @media only screen and (min-width: 90em) {
 
   html {
-    font-size: 1.5rem;
+    font-size: 130%;
   }
 
-  body {
-    padding: 0;
-    margin: auto;
-  }
 }
