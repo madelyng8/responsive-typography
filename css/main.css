@@ -65,7 +65,7 @@ blockquote {
 }
 
 article ol {
-  padding-left: .5em;
+  padding-left: 1.1em;
   margin-bottom: 1.4rem;
 }
 
@@ -82,18 +82,9 @@ article > p:last-child {
     margin-bottom: 1.5rem;
   }
 
-  h1,
   p {
-    margin: 0 0 1.5rem;
-    padding-top: 0;
-  }
-
-  h1 {
-    padding-top: .5rem;
-  }
-
-  article p {
-    padding-left: 0;
+    margin: 0 .5rem 1.5rem;
+    padding-left: .4rem;
   }
 
   article {
@@ -106,8 +97,28 @@ article > p:last-child {
   }
 
   article header {
-    margin: .4rem;
-    margin-bottom: 1.1em;
+    margin: .2rem .3rem 1.4rem;
+  }
+
+  h1 {
+    padding-top: .8rem;
+  }
+
+  blockquote {
+    margin-top: 1.6rem;
+    margin-bottom: 1.3rem;
+  }
+
+  p:nth-of-type(5) {
+    margin-bottom: 1.6rem;
+  }
+
+  ol {
+    margin-top: 1.5rem;
+  }
+
+  article > p:last-child {
+    padding-bottom: 1.4rem;
   }
 
 }
