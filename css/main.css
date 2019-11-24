@@ -78,6 +78,7 @@ article > p:last-child {
 
   html {
     font-size: 110%;
+    font-family: "Crimson Text", serif;
     line-height: 1.4;
     margin-bottom: 1.5rem;
   }
