@@ -85,11 +85,11 @@ article > p:last-child {
 
   p {
     margin: 0 .5rem 1.5rem;
-    padding-left: .4rem;
+    padding-left: .3rem;
   }
 
   article {
-    padding-left: .8rem;
+    padding-left: .7rem;
     padding-top: 0;
   }
 
@@ -99,10 +99,6 @@ article > p:last-child {
 
   article header {
     margin: .2rem .3rem 1.4rem;
-  }
-
-  h1 {
-    padding-top: .8rem;
   }
 
   blockquote {
@@ -129,7 +125,7 @@ article > p:last-child {
   html {
     font-size: 120%;
     line-height: 1.5;
-    padding-left: 4rem;
+    padding-left: 3.1rem;
   }
 
   h1,
